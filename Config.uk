@@ -1,0 +1,5 @@
+menuconfig APPSERVER_DEPENDENCIES
+        bool "Simple TCP server"
+        default y
+        select PLAT_KVM
+        select LIBLWIP

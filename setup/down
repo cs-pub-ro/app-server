@@ -1,0 +1,4 @@
+#!/bin/bash
+
+sudo ip link set dev "$1" nomaster
+sudo ip link set dev "$1" down
